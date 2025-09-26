@@ -33,15 +33,33 @@ This repository contains a production-ready SQL schema and queries for a notaria
 ---
 
 ## 🏗️ Architecture
+See **Deliverables → `ERD_Structure.pdf`** for the full Entity-Relationship Diagram (ERD).
 
+---
+
+## 🔄 How to Reproduce / Test the Code
+
+You don’t need to install a local database to try this project — you can run everything on [DB-Fiddle](https://www.db-fiddle.com/) (open, free, no account required).
+
+1. Go to **[DB-Fiddle](https://www.db-fiddle.com/)**.  
+2. Copy the entire content of **`Data_Definition_Language.sql`** into the **Schema SQL** pane (left side).  
+3. To test queries, open **`Data_Manipulation_Language.sql`**, copy any query you want, and paste it into the **Query SQL** pane (right side).  
+4. Click **Run** → 🎉 results will appear immediately.
+
+---
+
+## 📂 Deliverables
+
+- **ERD** → `Deliverables/ERD_Structure.pdf`  
+- **Final Report** → `Deliverables/INSY 437 - Final Project.pdf`  
+- **Code** → `SQL_DDL_DML_Codes/` (contains both `Data_Definition_Language.sql` and `Data_Manipulation_Language.sql`)
 
 ---
 
 ## 🔄 Reproduce or Extend
-- Load the schema, seed data, and run queries to replicate all forms and reports from the project brief.
+- Load the schema and queries in DB-Fiddle to replicate all forms and reports from the project brief.
 - Adapt roles, statuses, and enums to your practice.
-- Extend compliance and analytics by adding views or materialized views.
+- Extend compliance and analytics by adding new queries, views, or materialized views.
 
 ---
-
 
