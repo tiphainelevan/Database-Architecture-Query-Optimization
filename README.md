@@ -9,7 +9,7 @@ This repository contains a production-ready SQL schema and queries for a notaria
 
 ---
 
-## 🎯 Objective • Actions • Tasks • Conclusion
+## 🎯 Objective
 
 **Objective**
 - Build a flexible, normalized database that captures the firm’s operations and supports analytics, reporting, and compliance.
